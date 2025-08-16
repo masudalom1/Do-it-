@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 import mongoose from "mongoose";
 import todoRouter from "./route/todo.route.js";
 import userRouter from "./route/auth.route.js"
-import job from "./lib/cron.js";
+
 
 // Load environment variables
 dotenv.config();
