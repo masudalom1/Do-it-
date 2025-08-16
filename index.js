@@ -23,9 +23,6 @@ app.use("/api/user",userRouter);
 app.use("/api/todo", todoRouter);
 
 
-// Cron job
-job.start();
-
 // MongoDB connection
 const connectDB = async () => {
   try {
